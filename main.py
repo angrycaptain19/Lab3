@@ -22,10 +22,10 @@ def trecias():
     my_list = [12, 45, 23, 56, -546, 34]
     first = []
     second = []
-    for i in range(len(my_list)):
-        print(my_list[i])
-        x = my_list[i] * (my_list[i] - 10)
-        y = my_list[i] * my_list[i]
+    for my in my_list:
+        print(my)
+        x = my * (my - 10)
+        y = my * my
         first.append(x)
         second.append(y)
     print(first)
